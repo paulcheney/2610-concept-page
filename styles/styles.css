@@ -403,14 +403,19 @@ body {
 header {
   padding: 10px 0 10px 10px;
   display: grid;
-  grid-template-columns: 39px auto 44px;
+  grid-template-columns: 30px auto 44px;
   column-gap: 8px;
   align-items: end;
   border-bottom: 1px solid lab(97% 0 0);
   box-shadow: 0 0 10px lab(98% 0 0);
 }
+header img {
+  width: 30px;
+  height: auto;
+  padding-bottom: 5px;
+}
 header span {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #8F5d14;
 }
