@@ -130,6 +130,7 @@ footer .top {
     color: $color-grey-10;
     font-style: normal;
     line-height: 125%;
+    font-weight: $font-weight-thin;
   }
 
   a:hover {
@@ -143,7 +144,6 @@ footer .bot {
   color: $color-grey-80;
   text-align: center;
   font-size: .8rem;
-  font-weight: $font-weight-normal;
   a {
     color: $color-grey-80;
   }
