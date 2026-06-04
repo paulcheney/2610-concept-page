@@ -455,6 +455,19 @@ main > p {
   margin: 0.1rem 10px;
   line-height: 150%;
 }
+main > ul {
+  font-size: 1rem;
+  color: #8F5d14;
+  margin: 0.1rem 10px;
+  padding: 0;
+  line-height: 150%;
+  list-style-position: inside;
+}
+main > ul li::marker {
+  content: "☑ ";
+  font-size: 1.4rem;
+  color: lab(66% 0 0);
+}
 
 /************************** FOOTER **************************/
 footer .top {

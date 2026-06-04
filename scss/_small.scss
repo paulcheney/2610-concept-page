@@ -77,6 +77,19 @@ main {
     margin: .1rem $gutter ;
     line-height: 150%;
   }
+  >ul {
+    font-size: 1rem;
+    color: $color-primary;
+    margin: .1rem $gutter ;
+    padding: 0;
+    line-height: 150%;
+    list-style-position: inside;
+    li::marker {
+      content: "\2611  ";
+      font-size: 1.4rem;
+      color: $color-grey-40;
+    }
+  }
 }
 
 
